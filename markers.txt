@@ -1,0 +1,108 @@
+1
+Paris Eiffel Tower
+Building
+48.8583
+2.2945
+
+1
+Great Pyramid of Giza
+Building
+31.1339477975
+29.97416777
+
+1
+Sphinx
+Building
+31.13583279
+29.971829446
+
+1
+Notre-Dame
+Building
+48.852966
+2.349902
+
+1
+Rocinha Favela
+Area
+-22.986496054
+-43.241332368
+
+1
+Ganges Canal
+River
+29.7666636
+78.1999992
+
+1
+The Colosseum of Rome
+Building
+41.890251
+12.492373
+
+1
+Buckingham Palace
+Building
+51.501476
+-0.140634
+
+1
+ALEXANDRA FIORD
+Area
+78.8999964
+-75.993162694
+
+1
+Alhambra
+Building
+-118.1270146
+34.095287
+
+2
+Cathedral Basilica of St. John
+Building
+32.073333
+-81.091389
+
+2
+Siena Cathedral
+Building
+43.3177
+11.329
+
+2
+eyyy
+Building
+37.383889
+-5.991389
+
+2
+Shwedagon Pagoda
+Building
+16.798354
+96.149705
+
+2
+eyyy
+Statue
+-22.951944
+-43.210556
+
+1
+Golden Gate Bridge
+Building
+37.819722
+-122.478611
+
+2
+Central Park
+Park
+40.782222
+-73.965278
+
+1
+lalala
+Statue
+40.689194
+-74.0445
+
