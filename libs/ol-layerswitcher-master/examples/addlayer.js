@@ -23,8 +23,8 @@
       overlayGroup
     ],
     view: new ol.View({
-      center: ol.proj.transform([-0.92, 52.96], 'EPSG:4326', 'EPSG:3857'),
-      zoom: 6
+      center: ol.proj.transform([-80.789, 37.926], 'EPSG:4326', 'EPSG:3857'),
+      zoom: 5
     })
   });
 
@@ -32,19 +32,19 @@
   var layerSwitcher = new ol.control.LayerSwitcher();
   map.addControl(layerSwitcher);
 
-  // Add a layer to a pre-exiting ol.layer.Group after the LayerSwitcher has
+  // Add a layer to a pre-existing ol.layer.Group after the LayerSwitcher has
   // been added to the map. The layer will appear in the list the next time
   // the LayerSwitcher is shown or LayerSwitcher#renderPanel is called.
   overlayGroup.getLayers().push(
     new ol.layer.Image({
-      title: 'Countries',
-      minResolution: 500,
-      maxResolution: 5000,
+      // A layer must have a title to appear in the layerswitcher
+      title: 'States',
+      visible: true,
       source: new ol.source.ImageArcGISRest({
         ratio: 1,
-        params: { LAYERS: 'show:0' },
+        params: { LAYERS: 'show:2' },
         url:
-          'https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Countries_December_2016_Boundaries/MapServer'
+          'https://sampleserver6.arcgisonline.com/ArcGIS/rest/services/USA/MapServer'
       })
     })
   );
